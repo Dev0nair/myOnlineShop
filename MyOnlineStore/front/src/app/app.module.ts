@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { EventEmitterService } from './event-emitter.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -32,14 +33,16 @@ const firebaseConfig = {
     LoginComponent,
     IndexComponent,
     PropsComponent,
-    ChatsComponent
+    ChatsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(firebaseConfig)
   ],
-  providers: [],
+  providers: [
+    EventEmitterService
+  ],
   bootstrap: [AppComponent, NavComponent]
 })
 

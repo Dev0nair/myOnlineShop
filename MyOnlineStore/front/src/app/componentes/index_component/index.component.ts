@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LoginComponent } from '../login_component/login.component';
 
 @Component({
   selector: 'index',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class IndexComponent {
   title = 'index';
+
 }
