@@ -8,3 +8,6 @@ import { Component } from '@angular/core';
 export class NavComponent {
   title = 'navegador';
 }
+
+
+// a ver si lo detecta
