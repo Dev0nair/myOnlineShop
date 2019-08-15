@@ -1,0 +1,13 @@
+.card {
+  width: 25%;
+  height: 25%;
+  margin: auto;
+  margin-top: 5%;
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+}
+
+.card-body {
+  text-align: center;
+}
