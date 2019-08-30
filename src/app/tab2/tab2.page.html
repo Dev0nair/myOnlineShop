@@ -1,0 +1,36 @@
+<ion-header>
+  
+  <ion-toolbar>
+    <ion-title>
+      Inicio
+    </ion-title>
+    
+    <ion-buttons slot="primary">
+      <ion-button slot="end">
+        <ion-icon slot="end" name="contact"></ion-icon>
+        Mi perfil
+      </ion-button>
+    </ion-buttons>
+  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <img src="https://www.cuantocuestamiapp.com/img/app/intro.png" alt="imagen-intro-tab2">
+    <ion-card-header>
+      <ion-card-title>Convierte tu idea en una aplicación!</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Solamente haciendo clic sobre el botón e incluyendo una breve información de tu idea, contactarás con los administradores mediante un chat para aclarar los detalles
+      para comenzar con el desarrollo!
+
+      <ion-button (click)="onClick()">
+        Contactar con administrador!
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
